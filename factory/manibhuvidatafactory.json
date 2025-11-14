@@ -1,0 +1,9 @@
+{
+	"name": "manibhuvidatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e13e535f-ef11-4e89-8be5-aabcc39ba20a",
+		"tenantId": "b8dc5b33-2abe-480c-8dc3-ebc3e09c395a"
+	}
+}
