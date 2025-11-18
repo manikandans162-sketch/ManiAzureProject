@@ -13,7 +13,7 @@
 						]
 					},
 					{
-						"activity": "set_current_timestamp",
+						"activity": "current",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -114,13 +114,14 @@
 				}
 			},
 			{
-				"name": "set_current_timestamp",
+				"name": "current",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"policy": {
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"variableName": "current",
 					"value": {
